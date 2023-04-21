@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * return: Always 0 (Success)
+ * main - This is a description
+ * Return: 0 means Success
  */
 int main(void)
 {
