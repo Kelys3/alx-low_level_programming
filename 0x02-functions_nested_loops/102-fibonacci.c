@@ -11,7 +11,7 @@ int main(void)
 
 	printf("%d, %d, ", n, l);
 
-	for (q = 3; q <= z; q++)
+	for (q = 3; q <= z; ++q)
 	{
 		y = n + l;
 		printf("%d", y);
