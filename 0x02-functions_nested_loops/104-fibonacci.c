@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int c = 1, f = 2, y, x ;
+	int c = 1, f = 2, y, x;
 
 	printf("%d, %d, ", c, f);
 	for (y = 3; y <= 98; y++)
@@ -14,7 +14,7 @@ int main(void)
 		x = c + f;
 
 		printf("%d", x);
-		if (x != 98)
+		if (x < 98)
 		{
 			printf(", ");
 		}
