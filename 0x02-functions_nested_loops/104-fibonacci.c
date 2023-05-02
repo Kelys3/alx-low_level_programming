@@ -13,8 +13,8 @@ int main(void)
 	{
 		x = c + f;
 
-		printf("%lu, ", x);
-		if (x > 98)
+		printf("%lu", x);
+		if (x > 97)
 		{
 			printf(", ");
 		}
@@ -24,4 +24,3 @@ int main(void)
 	printf("\n");
 	return (0);
 }
-
