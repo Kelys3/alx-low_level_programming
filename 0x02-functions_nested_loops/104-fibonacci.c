@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	int c = 1, f = 2, y, x;
+	unsigned long int c = 1, f = 2, y, x;
 
-	printf("%d, %d, ", c, f);
+	printf("%lu, %lu, ", c, f);
 	for (y = 3; y <= 98; y++)
 	{
 		x = c + f;
 
-		printf("%d", x);
+		printf("%lu", x);
 		if (x < 98)
 		{
 			printf(", ");
