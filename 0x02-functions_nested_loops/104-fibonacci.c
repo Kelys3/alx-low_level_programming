@@ -11,11 +11,11 @@ int main(void)
 	printf("%lu, %lu, ", c, f);
 	for (y = 3; y <= 98; y++)
 	{
-		printf("%lu, ", x);
 		x = c + f;
+		printf("%lu, ", x);
 		if (x > 98)
 		{
-			printf(", ");
+			printf("%lu", x);
 		}
 		c = f;
 		f = x;
