@@ -1,5 +1,4 @@
 #include "main.h"
-/* A function that prints the n times table */
 /**
  * print_times_table - prints a number times table
  * @n: the number
@@ -35,7 +34,7 @@ void print_times_table(int n)
 				else
 				{
 					_putchar(c / 100 + '0');
-					_putchar(c % 100/10 + '0');
+					_putchar(c % 100 / 10 + '0');
 					_putchar(c % 10 + '0');
 				}
 				if (b < n)
