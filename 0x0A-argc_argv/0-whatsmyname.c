@@ -6,9 +6,9 @@
  * main - prints the program name
  * @argc: argument count
  * @argv: string
- * Return: 0 means success
+ * Return: program name
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	(void) argc;
 
