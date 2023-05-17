@@ -15,10 +15,11 @@ char *str_concat(char *s1, char *s2)
 	unsigned int i, j, l1, l2;
 	char *New;
 
-	if (s1 == NULL || s2 == NULL)
-	{
-		return ("");
-	}
+	if (s1 == NULL)
+		s1 = ("");
+	if (s2 == NULL)
+		s2 = ("");
+
 	l1 = 0, l2 = 0;
 
 	while (s1 && s1[l1])
