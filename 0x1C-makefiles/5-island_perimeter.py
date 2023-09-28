@@ -6,7 +6,7 @@ def island_perimeter(grid):
     """Return the perimiter of an island.
 
     Args:
-        grid (list): A list of list of integers 
+        grid (list): A list of list of integers
     Returns:
         The perimeter of the island defined in grid"""
     width = len(grid[0])
